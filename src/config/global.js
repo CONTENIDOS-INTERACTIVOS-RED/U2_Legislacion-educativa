@@ -16,9 +16,9 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
+    numeroUnidad: '2',
     tituloUnidad:
-      'Estructura de las normas en Colombia. Constitución Política de Colombia, Decreto 1075 del 2015',
+      'Evolución histórica del sistema jurídico colombiano, enfocado a la educación',
   },
   menuPrincipal: {
     menu: [
@@ -32,13 +32,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Constitución Política de Colombia',
+        titulo: 'Servicio público educativo y su función social',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Principios fundamentales ',
+            titulo: 'Principios rectores del servicio educativo',
             hash: 't_1_1',
           },
           {
@@ -53,31 +53,42 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Objetivos de la educación en Colombia',
+        titulo: 'Modalidades de atención educativa a poblaciones',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Educación inclusiva y accesibilidad',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Modelos de atención rural',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Educación para personas con discapacidad',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Educación para comunidades indígenas y afrodescendientes',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Decreto 1075 del 2015 (Decreto Reglamentario Único del Sector Educación)',
+        titulo: 'Organización para la prestación del servicio educativo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Marco normativo y su importancia en el sector educativo',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Normas generales para el sector educativo',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -117,109 +128,182 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Senlle, A. (2006). Calidad en los servicios educativos: ( ed.). Ediciones Díaz de Santos.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/53096',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (1994). Ley 115 de 1994, Ley General de Educación.',
+      link: 'https://www.mineducacion.gov.co',
+    },
+    {
+      referencia: 'Constitución Política de Colombia. (1991). Artículo 67.',
+      link: 'https://constitucioncolombia.com/titulo-2/capitulo-2/articulo-67',
+    },
+    {
+      referencia:
+        'Cortés Rodas, Francisco. (2012). El derecho a la educación como derecho social fundamental en sus tres dimensiones: educación primaria, secundaria y superior. Estudios Socio-Jurídicos, 14(2), 185-205.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0124-05792012000200007&lng=en&tlng=es',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Decreto 1075 de 2015. (2015). Decreto Único Reglamentario del Sector Educación.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.mineducacion.gov.co/portal/normativa/Decretos/351080:Decreto-No-1075-del-26-de-mayo-de-2015',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Decreto 1860 de 1994. (1994). Reglamento General de la Ley General de Educación.',
+      link: null,
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ministerio de Educación Nacional. (2020). Políticas y programas educativos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.mineducacion.gov.co/portal/salaprensa/Comunicados/411101:El-Ministerio-de-Educacion-presenta-la-Politica-Publica-de-Recursos-Educativos-Mas-y-Mejores-Aprendizajes',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). (2015). Objetivos de Desarrollo Sostenible: ODS 4.',
+      link: 'https://unesdoc.unesco.org/ark:/48223/pf0000252423',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Navarrete Cazales, Z. (Coord.). (2022). Inclusión en educación: (1 ed.). Plaza y Valdés (México).',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/225041',
+    },
+    {
+      referencia:
+        'Acosta Valdeleón, W. Ángel Pardo, N. C. & Pérez Pérez, T. (2020). Liderazgo en la educación rural con enfoque territorial: (1 ed.). Universidad de La Salle - Ediciones Unisalle.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/215702',
+    },
+    {
+      referencia:
+        'Convención sobre los Derechos de las Personas con Discapacidad, Naciones Unidas. (2006). Convención sobre los derechos de las personas con discapacidad.',
+      link: 'https://www.un.org/disabilities',
+    },
+    {
+      referencia:
+        'Departamento Administrativo Nacional de Estadística (DANE). (2020). Informe sobre la distribución de la población rural en Colombia.',
+      link: 'https://www.dane.gov.co',
+    },
+    {
+      referencia:
+        'Decreto 1421 de 2017. (2017). Por el cual se crea el Sistema de Atención Integral para la Inclusión de Estudiantes con Discapacidad.',
+      link: 'https://www.mineducacion.gov.co',
+    },
+    {
+      referencia:
+        'Ley 70 de 1993. (1993). Ley que regula los derechos de las comunidades afrocolombianas.',
+      link: 'https://www.mineducacion.gov.co',
+    },
+    {
+      referencia:
+        'Ley 1618 de 2013. (2013). Por la cual se dictan disposiciones para garantizar los derechos de las personas con discapacidad en Colombia.',
+      link: 'https://www.mineducacion.gov.co',
+    },
+    {
+      referencia:
+        'Ministerio de Educación Nacional (MEN). (2019). Lineamientos de educación flexibles y a distancia para zonas rurales.',
+      link: 'https://www.mineducacion.gov.co',
+    },
+    {
+      referencia:
+        'Temesio Vizoso, S. (2016). Educación inclusiva: Retos y oportunidades.',
+      link: 'https://revistas.um.es/red/article/view/275211',
+    },
+    {
+      referencia:
+        'UNESCO. (2009). Política y práctica de la educación inclusiva.',
+      link: 'https://www.unesco.org',
+    },
+    {
+      referencia: 'UNESCO. (2014). Lucha contra la exclusión.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'http://www.unesco.org/new/es/education/themes/strengthening-education-systems/inclusive-education/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Izcue Ancín, J. J. (2020). El sistema educativo "duerme" por inmovilidad pedagógica: innovación educativa. Hacia inteligencias más diferenciadas creativas e integrales: ( ed.). Narcea Ediciones.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/176543',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Ministerio de Educación Nacional. (2018). Política educativa y normativa del sector educativo en Colombia.',
+      link: 'https://www.mineducacion.gov.co',
+    },
+    {
+      referencia:
+        'UNESCO. (2020). Informe sobre el estado de la educación en América Latina y el Caribe.',
+      link: 'https://www.unesco.org',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Decreto 1075 de 2015',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Decreto reglamentario que establece las normas generales del sector educativo en Colombia, regulando aspectos como la organización institucional, el currículo, la evaluación y la promoción.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Derecho a la educación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es el derecho fundamental de todas las personas a recibir una educación de calidad, sin discriminación y con garantías de acceso, permanencia y culminación en el sistema educativo.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Descentralización educativa',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Proceso mediante el cual el estado transfiere competencias y responsabilidades a entidades territoriales (como departamentos y municipios) para gestionar el sistema educativo, permitiendo una mayor autonomía.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Educación básica',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Es el nivel educativo que comprende la educación preescolar y la educación primaria, obligatorio en colombia para todos los niños entre 3 y 14 años de edad.',
     },
     {
-      termino: 'Moda',
+      termino: 'Educación especial',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Modalidad educativa dirigida a estudiantes con discapacidades físicas, mentales o sensoriales, con el fin de proporcionarles un entorno adecuado que facilite su aprendizaje y desarrollo.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Educación inclusiva',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Enfoque educativo que busca la participación plena de todos los estudiantes, independientemente de sus capacidades, necesidades o contexto social, en el sistema educativo regular.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Evaluación educativa',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso mediante el cual se mide el aprendizaje y el desempeño de los estudiantes, con el fin de verificar si se han alcanzado los objetivos educativos establecidos.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Función social de la educación',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Se refiere al papel transformador que cumple la educación en la sociedad, promoviendo la equidad, el respeto, la integración social y el desarrollo cultural.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Inclusión educativa',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Proceso que asegura que todos los estudiantes, independientemente de sus diferencias, como discapacidad o origen socioeconómico, tengan las mismas oportunidades de aprender en un ambiente educativo compartido.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Modalidades de atención educativa',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son las diferentes formas en que se presta la educación para atender a la diversidad de estudiantes, tales como la educación especial, inclusiva y flexible, adaptadas a las necesidades de cada población.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Servicio público educativo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es el derecho garantizado por el estado que asegura el acceso a la educación de calidad para todos los ciudadanos, siendo una responsabilidad social y estatal.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Sistema educativo colombiano',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de instituciones, normas y políticas que conforman la estructura educativa en colombia, desde la educación inicial hasta la superior, con el fin de garantizar el acceso a una educación de calidad.',
+    },
+    {
+      termino: 'Ley General de Educación (Ley 115 de 1994)',
+      significado:
+        'Norma que regula el sistema educativo colombiano, estableciendo los principios, objetivos y modalidades de la educación básica, media y superior.',
     },
   ],
   complementario: [

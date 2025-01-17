@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La Unidad 2: Evolución histórica del sistema jurídico colombiano, enfocado a la educación, ofrece un recorrido por las principales leyes y decretos que han dado forma al sistema educativo del país. A partir del análisis de la Constitución Política de 1991, la Ley General de Educación (Ley 115 de 1994) y otras normativas relevantes, se comprende cómo la legislación ha contribuido a garantizar el acceso equitativo y la calidad educativa en diversos contextos. Esta unidad también enfatiza la importancia de los principios de equidad, inclusión y participación en la prestación del servicio educativo. Los estudiantes podrán reflexionar sobre cómo las políticas públicas influyen en el desarrollo social, asegurando que el derecho a la educación sea una realidad efectiva para todos los ciudadanos colombianos.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>
